@@ -45,3 +45,5 @@ let Student: Student = {
 }
 
 console.log('Student Details:', Student);
+
+console.log('---End of Level One Exercises---');

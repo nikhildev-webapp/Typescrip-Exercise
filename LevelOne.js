@@ -32,3 +32,4 @@ var Student = {
     ispresent: true,
 };
 console.log('Student Details:', Student);
+console.log('---End of Level One Exercises---');
