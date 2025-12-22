@@ -47,4 +47,6 @@ function processValue(value: number | string): number {
 let processValueResult = processValue(5);
 console.log('Square of number:',processValueResult);
 let processValueResult2 = processValue("The quick brown fox jumps over the lazy dog");
-console.log('Lenght of string:',processValueResult2);
+console.log('Lenght of string:', processValueResult2);
+
+console.log("End of Level 2: Functions & Parameters");
