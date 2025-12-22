@@ -16,3 +16,4 @@ var user2 = {
     isActive: false
 };
 console.log('User-2:', user2);
+//Continue..Here
