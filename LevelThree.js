@@ -15,4 +15,4 @@ var user2 = {
     email: 'harsh@gmail.com',
     isActive: false
 };
-console.log('User-2', user2);
+console.log('User-2:', user2);

@@ -23,4 +23,4 @@ let user2: User = {
     email: 'harsh@gmail.com',
     isActive:false
 }
-console.log('User-2', user2)
+console.log('User-2:', user2)
