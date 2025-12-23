@@ -32,3 +32,26 @@ function formatProduct(product) {
 }
 formatProduct(product1);
 console.log('Formatted Product-1:', formatProduct(product1));
+//*Exercise4:Create an array of products and print only products that are in stock
+console.log('Exercise4:array of products and print only products that are in stock');
+var products = [
+    { id: 'Ax101', name: 'Monitor', price: 10000, inStock: true },
+    { id: 'Ax102', name: 'Keyboard', price: 2000, inStock: false },
+    { id: 'Ax103', name: 'Mouse', price: 1500, inStock: true },
+    { id: 'Ax104', name: 'Printer', price: 8000, inStock: false },
+    { id: 'Ax105', name: 'Webcam', price: 3000, inStock: true }
+];
+console.log('All Products:', products);
+var inStockProducts = products.filter(function (product) { return product.inStock === true; });
+console.log('Products in Stock:', inStockProducts);
+//*Exercise5:Extend an interface Create Admin that extends User, Add role and permissions
+console.log('Exercise5:Extend an interface Create Admin that extends User, Add role and permissions');
+var admin1 = {
+    id: 'Admin201',
+    name: 'Alice',
+    email: 'alice@example.com',
+    isActive: true,
+    role: 'SuperAdmin',
+    permissions: ['read', 'write', 'delete']
+};
+console.log('Admin-1:', admin1);
