@@ -25,3 +25,17 @@ function filterEvenNumbers(values:number[]):number[] {
 let mixedNumbersArray: number[] = [10, 25, 5, 78, 45, 99, 23, 64, 82];
 let evenNumbersArray: number[] = filterEvenNumbers(mixedNumbersArray);
 console.log("Even numbers are: " + evenNumbersArray);
+
+//*Exercise 4:Create a interface with readonly properties
+console.log("Exercise 4:Create a interface with readonly properties");
+interface Person {
+    readonly name: string;
+    readonly age: number;
+}
+let person1: Person = { name: "Nikhil", age: 25 };
+console.log("Person Name: " + person1.name + ", Age: " + person1.age);
+
+//*Exercise 5:Create a tuple that store id(number, username(string)
+console.log("Exercise 5:Create a tuple that store id(number, username(string)");
+let userTuple: [number, string] = [1, "Nikhil"];
+console.log("User ID: " + userTuple[0] + ", Username: " + userTuple[1]);
