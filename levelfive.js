@@ -26,3 +26,28 @@ function printRoleMessage(role) {
     }
 }
 printRoleMessage(currentUserRole);
+//*Exercise 3:create a function that accepts only 'success'|'error'|'loading'
+console.log("Exercise 3:create a function that accepts only 'success'|'error'|'loading'");
+function printStatusMessage(status) {
+    if (status === 'success') {
+        console.log("Operation completed successfully.");
+    }
+    else if (status === 'error') {
+        console.log("An error occurred.");
+    }
+    else if (status === 'loading') {
+        console.log("Loading...");
+    }
+}
+printStatusMessage('success');
+printStatusMessage('error');
+printStatusMessage('loading');
+//*Exercise 4:create a type for HTTP methods(GET,POST,PUT,DELETE)
+console.log("Exercise 4:create a type for HTTP methods(GET,POST,PUT,DELETE)");
+function printHttpMethodMessage(method) {
+    console.log("HTTP Method used: " + method);
+}
+printHttpMethodMessage('GET');
+printHttpMethodMessage('POST');
+printHttpMethodMessage('PUT');
+printHttpMethodMessage('DELETE');
