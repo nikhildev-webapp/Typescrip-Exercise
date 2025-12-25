@@ -26,7 +26,7 @@ let expenses: Expense[] = [
     { amount: 20, category: "Transport", date: new Date("2024-01-11") },
     { amount: 100, category: "Shopping", date: new Date("2024-01-12") }
 ];
-console.log('Expenses:', expenses);
+console.log('Expenses:',expenses);
 let totalExpenses = expenses.reduce((total, expense) => total + expense.amount, 0);
 console.log('Total expenses:', totalExpenses);
 
